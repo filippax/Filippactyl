@@ -1,23 +1,23 @@
 {
-  "version": "12.7.1",
-  "name": "Heliactyl",
-  "letter": "H",
+  "version": "1.3.5",
+  "name": "Filippactyl",
+  "letter": "F",
   "defaulttheme": "default",
   "timezone": "Europe/London",
   "resources": {
-    "_note": "Options: MB, GB. This is only used on the user side, admin will use GB.",
+    "_note": "Select your preferred unit of measurement for data storage: MB (for Megabytes) or GB (for Gigabytes). Please note that admins will use GB as their default unit of measurement.",
     "type": "GB"
   },
   "website": {
-    "port": 25001,
-    "secret": "asdasdasdddasdasdasdasd"
+    "port": 8080,
+    "secret": "makethisverysecure"
   },
   "pterodactyl": {
-    "domain": "https://panel.citricnode.com",
-    "key": "psDucptz4vxI7zXwGRWJavfjg0pPbxhJ9EhOXdMhBjIj6Qru"
+    "domain": "https://panel.xxxx.com",
+    "key": "pterodactylapikey"
   },
   "linkvertise": {
-    "userid": "381569",
+    "userid": "linkvertiseid",
     "coins": 5
   },
   "storelimits": {
@@ -37,7 +37,7 @@
     "client": {
       "api": {
         "enabled": true,
-        "code": "@@6Qp50M32Sa"
+        "code": "@@6Qp50M3d2Sa"
       },
       "j4r": {
         "enabled": true,
@@ -63,7 +63,7 @@
         ]
       },
       "bot": {
-        "token": "MTA5ODMzMjA0Njk4NTgwMTcyOQ.GWLlda.lFo2k0Uaojb1WNeQE4udpJPeCc55ikkSJMWCJY",
+        "token": "bottoken",
         "joinguild": {
           "_comment": "The Discord bot must be in these servers and have invite permissions. Automatic guild joining will not work unless role packages are configured correctly. You can always just set it to a random role & package so that only this works.",
           "enabled": true,
@@ -89,9 +89,9 @@
       },
       "oauth2": {
         "_comment": "Go to https://discord.dev/ and create an application to set these up.",
-        "id": "1098332046985801729",
-        "secret": "MRKM1lOV_tVnCvxGmnKqZoZOgu6O-4v3",
-        "link": "https://client.citricnode.com",
+        "id": "discordid",
+        "secret": "discordclientsecret",
+        "link": "https://client.xxxx.com",
         "callbackpath": "/callback",
         "prompt": true,
         "ip": {
